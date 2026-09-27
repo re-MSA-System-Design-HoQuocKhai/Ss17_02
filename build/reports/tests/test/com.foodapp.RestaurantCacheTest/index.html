@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - com.foodapp.RestaurantCacheTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<div class="breadcrumbs">
+<a class="breadcrumb" href="../index.html">all</a> &gt; 
+<span class="breadcrumb">com.foodapp.RestaurantCacheTest</span>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a class="successGroup" href="#">Gradle Test Run :test</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Gradle Test Run :test</h2>
+<h1>RestaurantCacheTest</h1>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a class="" href="#">summary</a>
+</li>
+<li>
+<a class="" href="#">standard output</a>
+</li>
+</ul>
+<div class="tab">
+<h2>summary</h2>
+<div>
+<div class="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox">
+<div class="counter">0</div>
+<p>skipped</p>
+</div>
+</td>
+<td>
+<div class="infoBox duration">
+<div class="counter">10.433s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<table class="test-results sortable">
+<thead>
+<tr>
+<th>Child</th>
+<th>Name</th>
+<th data-sort-default="desc">Tests</th>
+<th data-sort-default="desc">Failures</th>
+<th data-sort-default="desc">Skipped</th>
+<th data-sort-default="desc">Duration</th>
+<th>Success rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="success">
+<a href="testLazyLoadingCacheable().html">Kiểm tra cơ chế Lazy Loading: Lần 1 Cache Miss (~3000ms), Lần 2 Cache Hit (&lt;20ms)</a>
+</td>
+<td class="path">testLazyLoadingCacheable()</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td data-sort-value="4356">4.356s</td>
+<td class="success" data-sort-value="100">100%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="tab">
+<h2>standard output</h2>
+<span class="code">
+<pre id="root-0-test-stdout-com.foodapp.RestaurantCacheTest">18:54:38.013 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.foodapp.RestaurantCacheTest]: RestaurantCacheTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:54:38.119 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.foodapp.FoodApplication for test class com.foodapp.RestaurantCacheTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2026-09-27T18:54:38.713+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] com.foodapp.RestaurantCacheTest          : Starting RestaurantCacheTest using Java 21.0.6 with PID 7964 (started by Admin in D:\[IT-214] Microservices System Design\Ss17\2)
+2026-09-27T18:54:38.714+07:00 DEBUG 7964 --- [restaurant-menu-cache-service] [    Test worker] com.foodapp.RestaurantCacheTest          : Running with Spring Boot v3.3.4, Spring v6.1.13
+2026-09-27T18:54:38.714+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] com.foodapp.RestaurantCacheTest          : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2026-09-27T18:54:39.600+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-27T18:54:39.602+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-27T18:54:39.760+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 148 ms. Found 1 JPA repository interface.
+2026-09-27T18:54:39.779+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-27T18:54:39.780+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-09-27T18:54:39.799+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.foodapp.repository.MenuItemRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-09-27T18:54:39.799+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2026-09-27T18:54:40.294+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-27T18:54:40.555+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:menudb user=SA
+2026-09-27T18:54:40.556+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-27T18:54:40.726+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-27T18:54:40.851+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-09-27T18:54:40.895+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-09-27T18:54:41.285+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-27T18:54:41.350+07:00  WARN 7964 --- [restaurant-menu-cache-service] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-27T18:54:42.225+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-27T18:54:42.291+07:00 DEBUG 7964 --- [restaurant-menu-cache-service] [    Test worker] org.hibernate.SQL                        : 
+    alter table if exists menu_items 
+       alter column price set data type numeric(38,2)
+Hibernate: 
+    alter table if exists menu_items 
+       alter column price set data type numeric(38,2)
+2026-09-27T18:54:42.302+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-27T18:54:43.271+07:00  WARN 7964 --- [restaurant-menu-cache-service] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-27T18:54:43.879+07:00  INFO 7964 --- [restaurant-menu-cache-service] [    Test worker] com.foodapp.RestaurantCacheTest          : Started RestaurantCacheTest in 5.54 seconds (process running for 7.579)
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="root-0-test-stdout-com.foodapp.RestaurantCacheTest">Copy</button>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 9.7.1</a> at Sep 27, 2026, 6:54:48 PM</p>
+</div>
+</div>
+</body>
+</html>
